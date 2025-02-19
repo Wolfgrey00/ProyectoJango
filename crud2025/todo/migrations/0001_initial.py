@@ -18,11 +18,4 @@ class Migration(migrations.Migration):
                 ('tarea', models.CharField(max_length=100)),
             ],
         ),
-        migrations.CreateModel(
-            name='Fecha',
-            fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('fecha', models.CharField(max_length=100)),
-            ]
-        )
     ]
